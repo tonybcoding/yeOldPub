@@ -1,0 +1,8 @@
+
+
+#header {
+	height: 100px;
+	background: #ffffff
+                url(../images/headers/mainbanner.jpg); /* Paths to images in your CSS file are relative to the CSS file, not the html page. This is why the ../ is required in the path above. */
+    background-repeat: no-repeat;
+}

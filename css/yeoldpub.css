@@ -1,0 +1,254 @@
+/*The # in front of the id tells the browser that we are selecting an id.
+  For a class we would use a . instead eg: .page-container {}.
+  An id is a unique identifier that we use for things that are only going
+  to occur once on the page. So for headers, footers, navigation, etc we use
+  id's, and for any reccuring elements like links we should use classes, which
+  can occur multiple times on the same page.
+*/
+/*@import url("header.css");*/
+
+html, body {  /* remove top and side margins */
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, Verdana, Sans-serif;
+	font-size: 12px;
+	color: #333333;
+	/*background: #ffffff;*/
+}
+
+
+/* h1, h2, and h3 defined in secondary css */
+
+
+h4 {  /* this is for an error message */
+    margin: 0;
+    padding: 0;
+    font: arial;
+    font-size: 12px;
+    font-style: italic;
+   	color: #FF0000;
+}
+
+.hidden {
+	display: none;
+}
+
+
+
+
+
+
+#pagecontainer {
+    width: 900px;
+    margin: auto; /* this is done to center the div in the browser */
+    text-align: left;
+}
+
+
+
+
+
+#adsection {
+/* not really needed here; just to keep in line with HTML */
+}
+
+
+
+
+
+
+/*
+#header defined in secondary css, which is included in openPage function of pagecreationfunctions.php
+this permits different graphics to be used
+}
+*/
+#header h1 {
+    clear: both;
+    float: right;
+    text-align: right;
+    padding-right: 58px;
+    padding-top: 3px;
+}
+
+
+#header #description table{
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-left: 370px;
+    text-align: center;
+    vertical-align: middle;
+   	font-family: Times New Roman;
+	font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    font-style:italic;
+}
+
+#header #login table{
+	width: 170px;
+	padding: 0px;
+ 	float: right;
+	text-align: right;
+	margin-top: 5px;
+	margin-right: 20px;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+#header #login .entrytext {
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	text-align: left;
+	font-size: 11px;
+	color: #000000;
+}
+#header #login .entrytextsubmit {
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	text-align: center;
+	font-size: 11px;
+	color: #000000;
+}
+
+#header #loginsuccess table{
+	width: 170px;
+	height: 100px;
+	padding: 0px;
+ 	float: right;
+	text-align: right;
+	margin-right: 20px;
+    vertical-align: middle;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+
+
+
+
+#mainnavigation {
+    height: 11;
+    margin: 0;
+    padding: 0;
+    padding-right: 25px;
+   	text-align: right;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 11px;
+	color: #666666;
+    
+}
+
+#mainnavigation a {
+	color: #666666;
+	text-decoration: none;
+}
+
+/* #mainnavigation a:hover defined in secondary css */
+
+
+#leftcolumn {
+    float: left;
+    /* for now this is a google ad, so the dimensions and color are fixed...same with padding */
+    /*width: 120px;
+    line-height: 18px;
+    background: gray; */
+}
+#leftcolumn .padding {
+    /*padding: 10px;*/
+}
+
+
+
+
+#main {
+    float: left;
+    width: 530px;
+    line-height: 18px;
+}
+#main .padding {
+    padding: 10px;
+}
+
+/* main #entry defined in secondary css */
+
+#main #entry #register #table{   /* only used for user registration */
+    font-family: Tahoma, Arial, Helvetica, Sans-serif;
+    margin-left: 75px;
+    margin-top: 20px;
+    text-align: right;
+   	border-top: 1px solid #999999;
+  	font-size: 12px;
+	color: #000000;
+}
+
+#main #entry #register .entrytext {
+    font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	text-align: left;
+	font-size: 12px;
+	color: #000000;
+}
+#main #entry #register .entrytextsubmit {
+    font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	text-align: center;
+	font-size: 12px;
+	margin-top: 10px;
+	color: #000000;
+}
+
+#mainmgt {
+    margin: auto;
+    text-align: left;
+    width: 850px;
+    line-height: 18px;
+}
+#mainmgt .padding {
+    padding: 10px;
+}
+
+
+
+
+#rightcolumn {
+    float: right;
+    width: 240px;
+    margin-top: 10px;
+    line-height: 18px;
+}
+#rightcolumn .padding {
+    padding: 10px;
+}
+
+
+/* #rightcolumn #jumpmenu defined in secondary css */
+
+
+#rightcolumn #googlesearch {
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+}
+
+
+
+
+
+
+#footer {
+	clear: both; /* ensures the floats above don't "float" over the footer */
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	text-align: left;
+	font-size: 10px;
+	color: #999999;
+	border-top: 1px solid #999999;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 13px;
+	/* padding-top defined below to support IE5 */
+	line-height: 18px;
+	
+}
+

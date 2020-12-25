@@ -1,0 +1,87 @@
+/****************/
+/* Global Rules */
+/****************/
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+/*************************/
+/* Definition of Classes */
+/*************************/
+
+body {
+	font-family: Arial, Helvetica, Verdana, Sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background: #ffffff;
+}
+
+tr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal
+}
+
+/* With .hidden, we can set any element in the site to have the class "hidden", */
+/* and it won't show on the page at all */
+.hidden {
+	display: none;
+}
+
+
+/***********************************/
+/* Global identifiers.  Note, no # */
+/***********************************/
+h1 {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 16px;
+	font-style: bold;
+	color: #990000;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 14px;
+	font-style: bold;
+	color: #000000;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 12px;
+	font-style: bold;
+	color: #000000;
+}
+
+/* This is for a warning message */
+h4 {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+	color: #FF0000;
+}
+
+/*************************************************/
+/* Child identifiers as indicated by tag after # */
+/*************************************************/
+
+/*****************************/
+/* Containter specifications */
+/*****************************/
+
+
+/***********************/
+/***********************/
+/* E N D   O F   C S S */
+/***********************/
+/***********************/

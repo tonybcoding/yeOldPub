@@ -1,0 +1,47 @@
+#header {
+	height: 100px;
+	background: #ffffff
+                url(../images/headers/bluebanner.jpg);
+    background-repeat: no-repeat;
+}
+
+#rightcolumn #jumpmenu {
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px;
+    background-color: #a6a6ff;
+    border: 1px solid #999999;
+}
+
+#main #entry {
+    background-color: #EEEEEE;
+    border: 1px solid #a6a6ff;
+    border-style:ridge;
+    padding: 5px;
+}
+
+#mainnavigation a:hover {
+    color: #1a1a7e;
+	text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+	color: #1a1a7e;
+    font-size: 18px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+   	color: #1a1a7e;
+    font-size: 16px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+   	color: #1a1a7e;
+    font-size: 14px;
+}

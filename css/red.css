@@ -1,0 +1,47 @@
+#header {
+	height: 100px;
+	background: #ffffff
+                url(../images/headers/redbanner.jpg);
+    background-repeat: no-repeat;
+}
+
+#rightcolumn #jumpmenu {
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px;
+    background-color: #F18888;
+    border: 1px solid #999999;
+}
+
+#main #entry {
+    background-color: #EEEEEE;
+    border: 1px solid #F18888;
+    border-style:ridge;
+    padding: 5px;
+}
+
+#mainnavigation a:hover {
+    color: #690303;
+	text-decoration: underline;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+	color: #690303;
+    font-size: 18px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+   	color: #690303;
+    font-size: 16px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+   	color: #690303;
+    font-size: 14px;
+}

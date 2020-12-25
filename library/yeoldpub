@@ -1,0 +1,8 @@
+<prj>
+  <properties>
+    <property name="projectname">
+      ye old pub.com
+    </property>
+  </properties>
+  <folders dir="C:\Program Files\xampp\htdocs\_newyeoldpub\" name="C:\Program Files\xampp\htdocs\_newyeoldpub\" />
+</prj>
